@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200552188878aca4c881d593210662ad, type: 3}
+  m_Name: DefaultVehicleConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TukTuk.Vehicle.Data.VehicleConfig
+  motorForce: 12000
+  brakeForce: 18000
+  reverseForce: 8000
+  topSpeedKmh: 120
+  reverseTopSpeedKmh: 45
+  rollingResistance: 4
+  boostMultiplier: 1.6
+  boostTopSpeedBonus: 50
+  maxSteerAngle: 36
+  steerSpeed: 16
+  speedSensitiveSteerDrop: 0.2
+  steerTurnAssist: 2.4
+  suspensionRestLength: 0.55
+  wheelRadius: 0.35
+  springStrength: 28000
+  springDamper: 6200
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  lateralGrip: 1
+  driftLateralGrip: 0.32
+  driftSlipThreshold: 3.5
+  driftYawAssist: 1.8
+  counterSteerAssist: 2
+  enableNfsDrift: 1
+  driftSpeedRetention: 0.94
+  driftVelocityRedirectionRate: 4.2
+  maxDriftAngle: 65
+  enableBrakeToDrift: 1
+  driftSteerAuthority: 3.28
+  driftExitBoost: 3000
+  centerOfMassOffset: {x: 0, y: -0.45, z: 0}
+  downforce: 12
+  antiRollStrength: 15000
+  airStabilizationStrength: 6
+  airPitchTorque: 3.5
+  airYawTorque: 4

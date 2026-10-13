@@ -1,0 +1,24 @@
+{
+    "name": "SloydUnityBridge",
+    "rootNamespace": "",
+    "references": [
+        "glTFast"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cloud.gltfast",
+            "expression": "",
+            "define": "GLTFAST"
+        }
+    ],
+    "noEngineReferences": false
+}
